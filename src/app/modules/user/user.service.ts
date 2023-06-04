@@ -14,7 +14,7 @@ const createUserToDB = async (user: IUser): Promise<IUser | null> => {
 
   const createdUser = await User.create(user)
 
-  if (!createUserToDB) {
+  if (!createdUser) {
     throw new Error('Failed to create user!')
   }
   return createdUser

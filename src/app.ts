@@ -1,6 +1,9 @@
 import express, { Application, Request, Response } from 'express'
-const app: Application = express()
 import cors from 'cors'
+import userRoutes from '../src/app/modules/user/user.route'
+
+//create app
+const app: Application = express()
 
 // use cors
 app.use(cors())
@@ -11,9 +14,10 @@ app.use(express.json())
 // url parser
 app.use(express.urlencoded({ extended: true }))
 
-//user route
-
 //application route
+app.get('/api/v1/users', userRoutes)
+
+//home route
 app.get('/', (req: Request, res: Response) => {
   res.send('Welcome to our application')
 })
