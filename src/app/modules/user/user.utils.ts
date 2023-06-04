@@ -5,7 +5,7 @@ export const findLastUserId = async () => {
     .sort({ createdAt: -1 })
     .lean()
 
-  return lastUser.id
+  return lastUser?.id
 }
 
 export const generateUserId = async () => {
