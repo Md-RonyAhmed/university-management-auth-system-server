@@ -7,7 +7,8 @@ const createUser = async (req: Request, res: Response) => {
   try {
     res.status(200).send({
       success: true,
-      user: data,
+      message: 'user created successfully!',
+      data,
     })
   } catch (err) {
     res.status(400).send({
@@ -17,4 +18,4 @@ const createUser = async (req: Request, res: Response) => {
   }
 }
 
-export { createUser }
+export default { createUser }

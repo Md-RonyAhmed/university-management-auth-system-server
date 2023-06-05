@@ -1,6 +1,6 @@
 import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
-import userRoutes from '../src/app/modules/user/user.route'
+import userRoute from '../src/app/modules/user/user.route'
 
 //create app
 const app: Application = express()
@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 //application route
-app.get('/api/v1/users', userRoutes)
+app.get('/api/v1/users', userRoute)
 
 //home route
 app.get('/', (req: Request, res: Response) => {
