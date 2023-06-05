@@ -1,15 +1,20 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/.af2b156ccbd093bb08284f6ffb22c8827d0fe54e-audit.json",
-  "files": [
-    {
-      "date": 1685990936764,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-00-error.log",
-      "hash": "8324899b943a2a7e11e1968e87aa6116a9743cf502db7bfc38b4154954501039"
-    }
-  ],
-  "hashType": "sha256"
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/.af2b156ccbd093bb08284f6ffb22c8827d0fe54e-audit.json",
+    "files": [
+        {
+            "date": 1685990936764,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-00-error.log",
+            "hash": "8324899b943a2a7e11e1968e87aa6116a9743cf502db7bfc38b4154954501039"
+        },
+        {
+            "date": 1685992151959,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-01-error.log",
+            "hash": "da0a818b4e6008f04078330de8fc3283eb02ee394df8be1c948eceb50daf86df"
+        }
+    ],
+    "hashType": "sha256"
 }
