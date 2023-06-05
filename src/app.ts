@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 //application route
-app.get('/api/v1/users', userRouter)
+app.use('/api/v1/users', userRouter)
 
 //home route
 app.get('/', (req: Request, res: Response) => {
