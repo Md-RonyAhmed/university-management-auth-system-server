@@ -1,40 +1,40 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/.83807aa100ac85d759ee8d094269e63d7aa8690b-audit.json",
+  "files": [
+    {
+      "date": 1685990936761,
+      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-06-06-00-success.log",
+      "hash": "cfcc7c69c4401a340faad7b7930e284ad9d0000da097bf8f02ff665180da0597"
     },
-    "auditLog": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/.83807aa100ac85d759ee8d094269e63d7aa8690b-audit.json",
-    "files": [
-        {
-            "date": 1685990936761,
-            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-06-06-00-success.log",
-            "hash": "cfcc7c69c4401a340faad7b7930e284ad9d0000da097bf8f02ff665180da0597"
-        },
-        {
-            "date": 1685992151955,
-            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-06-06-01-success.log",
-            "hash": "756fa70ef95eb570e33e575599a43cb8ff586526e4862b83bf88299cfaa373a5"
-        },
-        {
-            "date": 1686045803818,
-            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-06-06-16-success.log",
-            "hash": "713c05be8a1943eb06f2e6176a06905a028f63594a11ccb804795221c7d81abd"
-        },
-        {
-            "date": 1686159721115,
-            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-07-06-23-success.log",
-            "hash": "99e2b50f460458fe868a661ed9117f2d1d3ca2ec8549c64cddb7159b64d1e980"
-        },
-        {
-            "date": 1686161044538,
-            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-08-06-00-success.log",
-            "hash": "01cc3a3c16fba4902552811585e4d4c687ddaff86a9749a9d5ea0b1c12db1d96"
-        },
-        {
-            "date": 1686219187173,
-            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-08-06-16-success.log",
-            "hash": "abb54f1631258f45ff22c6573dcf97e74fb8ebea8a5164d926d45f7f38bb719f"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1685992151955,
+      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-06-06-01-success.log",
+      "hash": "756fa70ef95eb570e33e575599a43cb8ff586526e4862b83bf88299cfaa373a5"
+    },
+    {
+      "date": 1686045803818,
+      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-06-06-16-success.log",
+      "hash": "713c05be8a1943eb06f2e6176a06905a028f63594a11ccb804795221c7d81abd"
+    },
+    {
+      "date": 1686159721115,
+      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-07-06-23-success.log",
+      "hash": "99e2b50f460458fe868a661ed9117f2d1d3ca2ec8549c64cddb7159b64d1e980"
+    },
+    {
+      "date": 1686161044538,
+      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-08-06-00-success.log",
+      "hash": "01cc3a3c16fba4902552811585e4d4c687ddaff86a9749a9d5ea0b1c12db1d96"
+    },
+    {
+      "date": 1686219187173,
+      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-08-06-16-success.log",
+      "hash": "abb54f1631258f45ff22c6573dcf97e74fb8ebea8a5164d926d45f7f38bb719f"
+    }
+  ],
+  "hashType": "sha256"
 }
