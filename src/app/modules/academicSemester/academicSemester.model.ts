@@ -1,5 +1,5 @@
-// import httpStatus from 'http-status';
-import { CallbackError, Schema, model } from 'mongoose';
+import httpStatus from 'http-status';
+import { Schema, model } from 'mongoose';
 import ApiError from '../../../errors/ApiError';
 import {
   academicSemesterCodes,
@@ -41,18 +41,17 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
 );
 
 academicSemesterSchema.pre('save', async function (next) {
-  try {
-    const isExist = await AcademicSemester.findOne({
-      title: this.title,
-      year: this.year,
-    });
-    if (isExist) {
-      throw new ApiError(409, 'Academic semester already exists!');
-    }
-    next();
-  } catch (error) {
-    next(error as CallbackError); // Pass the error to Express error handling middleware
+  const isExist = await AcademicSemester.findOne({
+    title: this.title,
+    year: this.year,
+  });
+  if (isExist) {
+    throw new ApiError(
+      httpStatus.CONFLICT,
+      'Academic semester already exists!'
+    );
   }
+  next();
 });
 
 export const AcademicSemester = model<IAcademicSemester>(
