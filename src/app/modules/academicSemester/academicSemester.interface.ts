@@ -20,7 +20,7 @@ export type IAcademicSemesterCodes = '01' | '02' | '03';
 
 export interface IAcademicSemester {
   title: string;
-  year: number;
+  year: string;
   code: string;
   startMonth: IAcademicSemesterMonths;
   endMonth: IAcademicSemesterMonths;
