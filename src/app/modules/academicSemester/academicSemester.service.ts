@@ -10,7 +10,7 @@ const createSemester = async (
   if (academicSemesterTitleCodeMapper[payload.title] !== payload.code) {
     throw new ApiError(
       httpStatus.BAD_REQUEST,
-      'Invalid code: Type=> 01-Autumn, 02-Summer, 03-Fall'
+      'Invalid code: Type => 01-Autumn, 02-Summer, 03-Fall'
     );
   }
   const data = await AcademicSemester.create(payload);
