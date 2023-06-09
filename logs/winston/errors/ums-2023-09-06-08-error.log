@@ -1,2 +1,4 @@
 Fri Jun 09 2023 8:37:57 - [UMS] error: Failed to connect database option connectiontimeout is not supported
 Fri Jun 09 2023 8:39:46 - [UMS] error: Failed to connect database URI cannot contain options with no value
+Fri Jun 09 2023 8:55:22 - [UMS] error: Academic semester is already exist !
+Fri Jun 09 2023 8:58:37 - [UMS] error: Academic semester is already exist !
