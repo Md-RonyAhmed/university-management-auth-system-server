@@ -1,18 +1,15 @@
 import { RequestHandler } from 'express';
 import { UserService } from './user.service';
+import httpStatus from 'http-status';
 
-const createUser: RequestHandler = async (req, res, next) => {
+const createUser: RequestHandler = async (req, res) => {
   const { user } = req.body;
   const data = await UserService.createUser(user);
-  try {
-    res.status(200).send({
-      success: true,
-      message: 'User created successfully!',
-      data,
-    });
-  } catch (error) {
-    next(error);
-  }
+  res.status(httpStatus.OK).send({
+    success: true,
+    message: 'User created successfully!',
+    data,
+  });
 };
 
 export const UserController = { createUser };
