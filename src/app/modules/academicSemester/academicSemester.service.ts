@@ -5,6 +5,7 @@ import { IAcademicSemester } from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { IGenericResponse } from '../../../interfaces/common';
+import { paginationHelper } from '../../../helpers/paginationHelper';
 
 //create a new semester into db
 const createSemester = async (
@@ -24,8 +25,8 @@ const createSemester = async (
 const getAllSemesters = async (
   paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
-  const { page = 1, limit = 10 } = paginationOptions;
-  const skip = (page - 1) * limit;
+  const { page, limit, skip } =
+    paginationHelper.calculatePagination(paginationOptions);
   const data = await AcademicSemester.find().skip(skip).limit(limit);
   const total = await AcademicSemester.countDocuments();
   return {
