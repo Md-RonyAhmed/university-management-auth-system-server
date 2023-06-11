@@ -6,6 +6,7 @@ import sendApiResponse from '../../../shared/sendApiResponse';
 import { IAcademicSemester } from './academicSemester.interface';
 import pick from '../../../shared/pick';
 import { paginationFields } from '../../../constants/pagination';
+import { academicSemesterFilterableFields } from './academicSemester.constant';
 
 //create a new semester
 const createSemester = catchAsync(
@@ -26,7 +27,10 @@ const createSemester = catchAsync(
 const getAllSemesters = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
     const paginationOptions = pick(req.query, paginationFields);
+    const filters = pick(req.query, academicSemesterFilterableFields);
+
     const data = await AcademicSemesterService.getAllSemesters(
+      filters,
       paginationOptions
     );
     sendApiResponse<IAcademicSemester[]>(res, {
