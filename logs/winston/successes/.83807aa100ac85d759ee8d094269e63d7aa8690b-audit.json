@@ -104,6 +104,21 @@
             "date": 1686387652855,
             "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-10-06-15-success.log",
             "hash": "d939b3cbf75417dd3989ac6ccf12c220a9662d86a6d11b81a4ae2e139ce94333"
+        },
+        {
+            "date": 1686397893824,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-10-06-17-success.log",
+            "hash": "7f49621d8344b6060bde23d384b8bd6053fa65a9ccb848cc97a54ef5f367c6b2"
+        },
+        {
+            "date": 1686400216470,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-10-06-18-success.log",
+            "hash": "e1f6bd6d2abd13d84d698e1845d64021a51407b4c4096a5dc576c026bfde26a5"
+        },
+        {
+            "date": 1686473212032,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-11-06-14-success.log",
+            "hash": "02c9fd48d7ed830c55a624057d682f8a219fa5db525445ab8bded30143cb1079"
         }
     ],
     "hashType": "sha256"
