@@ -36,7 +36,7 @@ const getAllSemesters = catchAsync(
     sendApiResponse<IAcademicSemester[]>(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'All semesters is retrieved successfully!',
+      message: 'Data is retrieved successfully!',
       meta: data.meta,
       data: data.data,
     });
