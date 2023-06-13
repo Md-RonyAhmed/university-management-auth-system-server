@@ -1,145 +1,155 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/.af2b156ccbd093bb08284f6ffb22c8827d0fe54e-audit.json",
-  "files": [
-    {
-      "date": 1685990936764,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-00-error.log",
-      "hash": "8324899b943a2a7e11e1968e87aa6116a9743cf502db7bfc38b4154954501039"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1685992151959,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-01-error.log",
-      "hash": "da0a818b4e6008f04078330de8fc3283eb02ee394df8be1c948eceb50daf86df"
-    },
-    {
-      "date": 1686045803822,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-16-error.log",
-      "hash": "53b346160952b107c30dbc0fa1e96a827075cd87ab70230c65d9ef77209b4b1e"
-    },
-    {
-      "date": 1686159721119,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-07-06-23-error.log",
-      "hash": "8bd6d4db7fd13bb389ab663818e30f4505aa551f77fe43bbff5a666ecdcb970b"
-    },
-    {
-      "date": 1686219187176,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-08-06-16-error.log",
-      "hash": "11456fdee387e14560247892159e53188572a754b0dd06461464bf47c45ecae2"
-    },
-    {
-      "date": 1686247552218,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-00-error.log",
-      "hash": "785ef4cd5d71a4279d17ea9929b81810700f0b9ccf2bb80e7981528f74a34075"
-    },
-    {
-      "date": 1686251687344,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-01-error.log",
-      "hash": "e562a2fa1fc9d2e9099c673765537aabf3e4f5bc31c854a3726983cfadb98552"
-    },
-    {
-      "date": 1686270926697,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-06-error.log",
-      "hash": "d9baf212882d8e9b4eefeb42fb3876fc7d7ada87cf67d6a47dad811d2c941d8d"
-    },
-    {
-      "date": 1686272682254,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-07-error.log",
-      "hash": "71394407cd00ee08d992f3e13a0a06e9646a4403c6ef6e6100100b0d81b3f950"
-    },
-    {
-      "date": 1686276084489,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-08-error.log",
-      "hash": "4b33311e363d36903cd9d3a8d374539303d6ed8d927196c18e023ba7f4caeb19"
-    },
-    {
-      "date": 1686280698062,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-09-error.log",
-      "hash": "7c4c98e4e985c057676b19c250bd2aca6e4d7ba4c6d566731d07efd8c0a64404"
-    },
-    {
-      "date": 1686311481689,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-17-error.log",
-      "hash": "cdc913e1b4d266a8db577d0e1b49613acd9e9fc93603cded346fae00ed745632"
-    },
-    {
-      "date": 1686312382705,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-18-error.log",
-      "hash": "a67a8d4f91db01b56dc5e2cd3df6cf6eea6888502e6230f86e735713bf78a7c6"
-    },
-    {
-      "date": 1686320789054,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-20-error.log",
-      "hash": "7a88760492e9284198e921fd7434bb26e45254755ad7344348e43ea63f7de780"
-    },
-    {
-      "date": 1686331705552,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-23-error.log",
-      "hash": "c88c0c687dd178972cee43e09650f3c304fbe19bdc8bf6b5e6ef943a89824c7f"
-    },
-    {
-      "date": 1686337167984,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-00-error.log",
-      "hash": "d781b74adcc7009e8440bbdd977699dbdb9e7421506a3420d9f66a18f7c7e517"
-    },
-    {
-      "date": 1686337287917,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-01-error.log",
-      "hash": "8c452451b24c33386b51148ea369c1f27f8e1e13458601adc0e66f94d13f9131"
-    },
-    {
-      "date": 1686387194714,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-14-error.log",
-      "hash": "5fdf50a085827e684235b4f845167622d3526a85557ceff8a1eb1998abe8ee06"
-    },
-    {
-      "date": 1686388138146,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-15-error.log",
-      "hash": "d716853406bb6a3176431881a988d4388b550ad2b91a57a9513f0717f671da95"
-    },
-    {
-      "date": 1686397893827,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-17-error.log",
-      "hash": "eb6534772e5da54b0364ad6b1230f96215bd8b8824be321ad5a562bc0ad3c64c"
-    },
-    {
-      "date": 1686400216475,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-18-error.log",
-      "hash": "92134f08724992b309d70fd15062ab9d0cb887d74b56bdedd513f2f44e152dd6"
-    },
-    {
-      "date": 1686473212036,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-11-06-14-error.log",
-      "hash": "0405197335a8bd01cf0f0a04ff983cba81d0833394f9995614e4a2947903e5d6"
-    },
-    {
-      "date": 1686476574611,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-11-06-15-error.log",
-      "hash": "e54e628fc5dad3d26e18c1e10429c0bc438bd457c98e742ef08facc457fa2c46"
-    },
-    {
-      "date": 1686485933469,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-11-06-18-error.log",
-      "hash": "a80578c160899898eb54884bed81596083a5bef3060258e6f36f9a5a33198a49"
-    },
-    {
-      "date": 1686614547772,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-13-06-06-error.log",
-      "hash": "4e52e6d1abab58b016382681e2c1c963fe27d120d07c133be8229936514cba82"
-    },
-    {
-      "date": 1686618262897,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-13-06-07-error.log",
-      "hash": "869c8cca10dc7cbd5b53e3e20e6c62bed589c80efbaf56be038fa3e59e1bd1fa"
-    },
-    {
-      "date": 1686622092383,
-      "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-13-06-08-error.log",
-      "hash": "c946ee2042e8288fe6c07007083202d9ed679191211482cdfa3b87d0ab90ee57"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/.af2b156ccbd093bb08284f6ffb22c8827d0fe54e-audit.json",
+    "files": [
+        {
+            "date": 1685990936764,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-00-error.log",
+            "hash": "8324899b943a2a7e11e1968e87aa6116a9743cf502db7bfc38b4154954501039"
+        },
+        {
+            "date": 1685992151959,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-01-error.log",
+            "hash": "da0a818b4e6008f04078330de8fc3283eb02ee394df8be1c948eceb50daf86df"
+        },
+        {
+            "date": 1686045803822,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-06-06-16-error.log",
+            "hash": "53b346160952b107c30dbc0fa1e96a827075cd87ab70230c65d9ef77209b4b1e"
+        },
+        {
+            "date": 1686159721119,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-07-06-23-error.log",
+            "hash": "8bd6d4db7fd13bb389ab663818e30f4505aa551f77fe43bbff5a666ecdcb970b"
+        },
+        {
+            "date": 1686219187176,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-08-06-16-error.log",
+            "hash": "11456fdee387e14560247892159e53188572a754b0dd06461464bf47c45ecae2"
+        },
+        {
+            "date": 1686247552218,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-00-error.log",
+            "hash": "785ef4cd5d71a4279d17ea9929b81810700f0b9ccf2bb80e7981528f74a34075"
+        },
+        {
+            "date": 1686251687344,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-01-error.log",
+            "hash": "e562a2fa1fc9d2e9099c673765537aabf3e4f5bc31c854a3726983cfadb98552"
+        },
+        {
+            "date": 1686270926697,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-06-error.log",
+            "hash": "d9baf212882d8e9b4eefeb42fb3876fc7d7ada87cf67d6a47dad811d2c941d8d"
+        },
+        {
+            "date": 1686272682254,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-07-error.log",
+            "hash": "71394407cd00ee08d992f3e13a0a06e9646a4403c6ef6e6100100b0d81b3f950"
+        },
+        {
+            "date": 1686276084489,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-08-error.log",
+            "hash": "4b33311e363d36903cd9d3a8d374539303d6ed8d927196c18e023ba7f4caeb19"
+        },
+        {
+            "date": 1686280698062,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-09-error.log",
+            "hash": "7c4c98e4e985c057676b19c250bd2aca6e4d7ba4c6d566731d07efd8c0a64404"
+        },
+        {
+            "date": 1686311481689,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-17-error.log",
+            "hash": "cdc913e1b4d266a8db577d0e1b49613acd9e9fc93603cded346fae00ed745632"
+        },
+        {
+            "date": 1686312382705,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-18-error.log",
+            "hash": "a67a8d4f91db01b56dc5e2cd3df6cf6eea6888502e6230f86e735713bf78a7c6"
+        },
+        {
+            "date": 1686320789054,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-20-error.log",
+            "hash": "7a88760492e9284198e921fd7434bb26e45254755ad7344348e43ea63f7de780"
+        },
+        {
+            "date": 1686331705552,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-09-06-23-error.log",
+            "hash": "c88c0c687dd178972cee43e09650f3c304fbe19bdc8bf6b5e6ef943a89824c7f"
+        },
+        {
+            "date": 1686337167984,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-00-error.log",
+            "hash": "d781b74adcc7009e8440bbdd977699dbdb9e7421506a3420d9f66a18f7c7e517"
+        },
+        {
+            "date": 1686337287917,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-01-error.log",
+            "hash": "8c452451b24c33386b51148ea369c1f27f8e1e13458601adc0e66f94d13f9131"
+        },
+        {
+            "date": 1686387194714,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-14-error.log",
+            "hash": "5fdf50a085827e684235b4f845167622d3526a85557ceff8a1eb1998abe8ee06"
+        },
+        {
+            "date": 1686388138146,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-15-error.log",
+            "hash": "d716853406bb6a3176431881a988d4388b550ad2b91a57a9513f0717f671da95"
+        },
+        {
+            "date": 1686397893827,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-17-error.log",
+            "hash": "eb6534772e5da54b0364ad6b1230f96215bd8b8824be321ad5a562bc0ad3c64c"
+        },
+        {
+            "date": 1686400216475,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-10-06-18-error.log",
+            "hash": "92134f08724992b309d70fd15062ab9d0cb887d74b56bdedd513f2f44e152dd6"
+        },
+        {
+            "date": 1686473212036,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-11-06-14-error.log",
+            "hash": "0405197335a8bd01cf0f0a04ff983cba81d0833394f9995614e4a2947903e5d6"
+        },
+        {
+            "date": 1686476574611,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-11-06-15-error.log",
+            "hash": "e54e628fc5dad3d26e18c1e10429c0bc438bd457c98e742ef08facc457fa2c46"
+        },
+        {
+            "date": 1686485933469,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-11-06-18-error.log",
+            "hash": "a80578c160899898eb54884bed81596083a5bef3060258e6f36f9a5a33198a49"
+        },
+        {
+            "date": 1686614547772,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-13-06-06-error.log",
+            "hash": "4e52e6d1abab58b016382681e2c1c963fe27d120d07c133be8229936514cba82"
+        },
+        {
+            "date": 1686618262897,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-13-06-07-error.log",
+            "hash": "869c8cca10dc7cbd5b53e3e20e6c62bed589c80efbaf56be038fa3e59e1bd1fa"
+        },
+        {
+            "date": 1686622092383,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-13-06-08-error.log",
+            "hash": "c946ee2042e8288fe6c07007083202d9ed679191211482cdfa3b87d0ab90ee57"
+        },
+        {
+            "date": 1686626604907,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-13-06-09-error.log",
+            "hash": "49f68c6744bef66226c4ae5ea1b35403c0870e5a395b9896a560896e5b595718"
+        },
+        {
+            "date": 1686629262232,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-13-06-10-error.log",
+            "hash": "c82f4e6e95d39930156cb5bd25492857f3ce97fb4f9ff8722a179b28de4c7338"
+        }
+    ],
+    "hashType": "sha256"
 }
