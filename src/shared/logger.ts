@@ -39,7 +39,6 @@ const errorLogger = createLogger({
   level: 'error',
   format: combine(label({ label: 'UMS' }), timestamp(), myFormat),
   transports: [
-    new transports.Console(),
     new DailyRotateFile({
       filename: path.join(
         process.cwd(),

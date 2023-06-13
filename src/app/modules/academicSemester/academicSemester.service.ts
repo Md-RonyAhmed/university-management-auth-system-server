@@ -82,6 +82,7 @@ const getAllSemesters = async (
   };
 };
 
+//get a single semester from the database
 const getSingleSemester = async (
   id: string
 ): Promise<IAcademicSemester | null> => {
@@ -89,6 +90,7 @@ const getSingleSemester = async (
   return data;
 };
 
+// update the semester into database
 const updateSemester = async (
   id: string,
   payload: Partial<IAcademicSemester>
@@ -109,9 +111,18 @@ const updateSemester = async (
   return data;
 };
 
+// delete the semester from the database
+const deleteSemester = async (
+  id: string
+): Promise<IAcademicSemester | null> => {
+  const data = await AcademicSemester.findByIdAndDelete(id);
+  return data;
+};
+
 export const AcademicSemesterService = {
   createSemester,
   getAllSemesters,
   getSingleSemester,
   updateSemester,
+  deleteSemester,
 };
