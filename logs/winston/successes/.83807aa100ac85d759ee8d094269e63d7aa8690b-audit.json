@@ -139,6 +139,11 @@
             "date": 1686618175198,
             "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-13-06-07-success.log",
             "hash": "1bb46386f1baa101c4009887fa75784fa130f2b618166cb3aa7c2c20fc2a20f4"
+        },
+        {
+            "date": 1686622092379,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/successes/ums-2023-13-06-08-success.log",
+            "hash": "e712db5c799c74e5cb9183c0faf25897158098c643ef909dae6c95465176c923"
         }
     ],
     "hashType": "sha256"
