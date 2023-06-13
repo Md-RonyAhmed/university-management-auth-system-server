@@ -12,6 +12,7 @@ router
     AcademicSemesterController.createSemester
   )
   .get('/', AcademicSemesterController.getAllSemesters)
-  .get('/:id', AcademicSemesterController.getSingleSemester);
+  .get('/:id', AcademicSemesterController.getSingleSemester)
+  .patch('/:id', AcademicSemesterController.updateSemester);
 
 export const AcademicSemesterRoutes = router;
