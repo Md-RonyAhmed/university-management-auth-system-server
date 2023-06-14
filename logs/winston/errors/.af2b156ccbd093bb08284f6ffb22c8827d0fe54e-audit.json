@@ -184,6 +184,16 @@
             "date": 1686717142288,
             "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-14-06-10-error.log",
             "hash": "9582e4602cd986b9e3b80de5a398b0853c8156cf41b74480d946e61d6e3a00fd"
+        },
+        {
+            "date": 1686732516142,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-14-06-14-error.log",
+            "hash": "529996b0429098c002212fbebd2da45a205632e946cdcfe7e2b7f03289800f5c"
+        },
+        {
+            "date": 1686733332995,
+            "name": "/home/asus/Projects/PH_Assignments/university-management-authentication-service-backend/logs/winston/errors/ums-2023-14-06-15-error.log",
+            "hash": "858e3ff6f4a3f43c6085a31916eee6f79ea4c3ecf922240cbb5555f17a383980"
         }
     ],
     "hashType": "sha256"
