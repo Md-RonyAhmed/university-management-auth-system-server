@@ -12,12 +12,12 @@ router
     AcademicFacultyController.createFaculty
   )
   .get('/', AcademicFacultyController.getAllFaculties)
-  .get('/:id', AcademicFacultyController.getSingleFaculty);
-// .patch(
-//   '/:id',
-//   validateRequest(AcademicFacultyValidation.updateAcademicFacultyZodSchema),
-//   AcademicFacultyController.updateFaculty
-// )
-// .delete('/:id', AcademicFacultyController.deleteFaculty);
+  .get('/:id', AcademicFacultyController.getSingleFaculty)
+  .patch(
+    '/:id',
+    validateRequest(AcademicFacultyValidation.updateAcademicFacultyZodSchema),
+    AcademicFacultyController.updateFaculty
+  )
+  .delete('/:id', AcademicFacultyController.deleteFaculty);
 
 export const AcademicFacultyRoutes = router;
